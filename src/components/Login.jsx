@@ -15,7 +15,7 @@ const schema = yup.object().shape({
       /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$/,
       "Şifre güçlü olmalı"
     )
-    .required("Şifre zorunludurr"),
+    .required("Şifre zorunludurrr"),
   terms: yup.boolean().oneOf([true], "Şartları kabul etmelisiniz"),
 });
 
